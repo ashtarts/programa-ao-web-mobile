@@ -1,16 +1,16 @@
 body {
-  background: rgb(8, 161, 161);
-  background-blend-mode:color-dodge;
+  background: rgb(255, 255, 255);
 }
 
 .quadrado {
-  background-color: rgb(8, 161, 161);
+  background-color: rgb(255, 255, 255);
   width: 1190px;
   height: 460px;
   margin: auto;
-  border: 5px solid rgb(8, 161, 161);
+  border: 5px solid rgb(255, 255, 255);
   border-radius: 50px;
   animation: pulse 2s infinite;
+  background-image: url();
 }
 
 @keyframes pulse {
@@ -31,7 +31,7 @@ body {
   transform: translate(-50%, -50%);
   width: 300px;
   height: 300px;
-  border: 5px solid rgb(8, 161, 161);
+  border: 5px solid rgb(255, 255, 255);
   border-radius: 50px;
 }
 
@@ -40,20 +40,20 @@ body {
   font-weight: bold;
   font-style: italic;
   font-family: "Courier New", Courier, monospace;
-  color: aliceblue;
+  color: rgb(66, 209, 228);
 }
 .nome2 {
   margin-left: 200px;
   font-weight: bold;
   font-style: italic;
   font-family: "Courier New", Courier, monospace;
-  color: aliceblue;
+  color: rgb(66, 209, 228);
 }
 
 .next {
   margin-left: 320px;
   color: #000000;
-  border: 1px solid #fff;
+  border: 1px solid #002fff;
   width: 140px;
   text-align: center;
   border-radius: 40px;
@@ -61,7 +61,7 @@ body {
 }
 
 .next:hover {
-  background-color: #fff; 
+  background-color: #0abaff; 
   cursor: pointer; 
 }
 
@@ -85,7 +85,7 @@ body {
 
 .fundo {
   width: 2000px;
-  height: 1300px;
+  height: 300px;
   margin: auto;
   position: absolute;
   top: 0;
@@ -116,10 +116,11 @@ body {
   border-radius: 20px;
   width: 300px; 
   border-style: solid;
-  border-color: #ffffff;
+  border-color: #000000;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2), inset 0px -5px 5px rgba(0, 0, 0, 0.1);
   margin: 0 auto; 
   font-family: "Courier New", Courier, monospace;
+  transition: all 0.2s ease-in-out; 
 
 }
 
@@ -194,7 +195,7 @@ box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 border: none;
 box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3), 0px 0px 10px rgba(0, 0, 0, 0.2);  
 font-family: "Courier New", Courier, monospace;
-
+background-image: url("https://i.pinimg.com/736x/87/3b/0b/873b0b102d94ccb413ce9abaa4f8916d.jpg");
 
 }
 
