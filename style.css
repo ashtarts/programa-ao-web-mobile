@@ -53,12 +53,10 @@ body {
 }
 
 .next {
-  margin-left: 320px;
   color: #000000;
   border: 1px solid #002fff;
   width: 140px;
   text-align: center;
-  border-radius: 40px;
   transition: all 0.2s ease-in-out; 
 }
 
@@ -142,6 +140,8 @@ body {
   font-family: "Courier New", Courier, monospace;
   border-image-outset: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3), 0px 0px 10px rgba(0, 0, 0, 0.2);  
+  font-size: large;
+  font-weight: bolder
 }
 
 td {
