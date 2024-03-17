@@ -42,14 +42,14 @@ body {
   font-weight: bold;
   font-style: italic;
   font-family: "Courier New", Courier, monospace;
-  color: rgb(66, 209, 228);
+  color: rgb(0, 0, 0);
 }
 .nome2 {
   margin-left: 200px;
   font-weight: bold;
   font-style: italic;
   font-family: "Courier New", Courier, monospace;
-  color: rgb(66, 209, 228);
+  color: rgb(0, 0, 0);
 }
 
 .next {
@@ -77,8 +77,8 @@ body {
   align-items: center;
   color: rgb(0, 0, 0);
   font-family: Courier New, monospace;
-  border: 5px solid rgb(61, 193, 211);
-  
+  border: 5px solid rgb(0, 0, 0);
+  font-size: large;
   border-radius: 1000px;
   background-size: cover;
   background-position: center;
@@ -97,11 +97,11 @@ body {
 }
 
 .seta1 {
-  color:rgb(61, 193, 211);
-  
+  color: rgb(61, 193, 211); 
   text-align: center;
   font-weight: bold;
   font-size: 74px;
+  -webkit-text-stroke: 2px black; 
 }
 .next {
   margin-left: 320px;
@@ -140,7 +140,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   border-image-outset: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3), 0px 0px 10px rgba(0, 0, 0, 0.2);  
-  font-size: large;
+  font-size: larg;
   font-weight: bolder
 }
 
