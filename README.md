@@ -1,3 +1,3 @@
 # Portfolio feito em HTML, CSS e JS.
-<h1> Still in progress...</h1>
+<h2> Still in progress...</h2>
 https://ashtarts.github.io/portfolio/
