@@ -64,9 +64,9 @@ body {
   width: 550px;
   height: 230px;
   padding: 20px;
-  border: 5px solid rgb(61, 193, 211);
+  border: 5px solid #2fa4ff;
   margin: auto;
-  background-color: rgb(61, 193, 211);
+  background-color: #2fa4ff;
   text-align: center;
   display: flex;
   align-items: center;
@@ -92,7 +92,7 @@ body {
 }
 
 .seta1 {
-  color: rgb(61, 193, 211); 
+  color: #2fa4ff; 
   text-align: center;
   font-weight: bold;
   font-size: 74px;
@@ -187,7 +187,7 @@ display: flex;
 width: 500px;
 flex-direction: column;
 align-items: center;
-background-color: #11a0d8;
+background-color: #2fa4ff;
 margin: 100px auto;
 border-radius: 5px;
 box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
@@ -242,7 +242,7 @@ form button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #11a0d8;
+  background-color: #2fa4ff;
   margin: 50px auto;
 
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
