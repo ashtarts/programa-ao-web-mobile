@@ -1,6 +1,9 @@
 body {
   background: rgb(255, 255, 255);
 }
+.fundo{
+  background: linear-gradient(to top, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
 
 .quadrado {
   background-color: rgb(255, 255, 255);
@@ -34,8 +37,6 @@ body {
   border-radius: 50px;
   
 }
-
-
 
 .nome {
   margin-left: 300px;
@@ -133,10 +134,15 @@ body {
   border-radius: 20px 10px 30px 5px;
   border-color: #000000;
   font-family: "Courier New", Courier, monospace;
+  color: aliceblue;
   border-image-outset: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3), 0px 0px 10px rgba(0, 0, 0, 0.2);  
   font-size: larg;
   font-weight: bolder
+}
+
+.dados{
+  color: #000;
 }
 
 td {
@@ -244,7 +250,6 @@ form button {
   align-items: center;
   background-color: #2fa4ff;
   margin: 50px auto;
-
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 }
 
