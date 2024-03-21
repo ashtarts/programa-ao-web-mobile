@@ -1,9 +1,7 @@
 body {
   background: rgb(255, 255, 255);
 }
-.fundo{
-  background: linear-gradient(to top, #fff 0%, rgba(255, 255, 255, 0) 100%);
-}
+
 
 .quadrado {
   background-color: rgb(255, 255, 255);
@@ -13,6 +11,8 @@ body {
   border: 5px solid rgb(255, 255, 255);
   border-radius: 50px;
   animation: pulse 2s infinite;
+  position: relative;
+  overflow: hidden;
 }
 
 @keyframes pulse {
@@ -28,7 +28,8 @@ body {
 }
 .imagem {
   position: absolute;
-  bottom: 5px;
+  height: auto;
+  bottom: -20%;
   right: 20px;
   transform: translate(-50%, -50%);
   width: 300px;
@@ -274,7 +275,6 @@ footer {
   margin-right: 10px;
   font-weight: bolder;
   border: 2px solid #000;
-
 }
 
 .container-footer {
@@ -292,7 +292,7 @@ footer {
 
 .footer-col .medias-socias a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   border: 1px solid #ffffff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -302,9 +302,5 @@ footer {
 
 .footer-col .medias-socias a:hover {
   background-color: #ffffff;
-  color: #000000;
+  color: rgb(70, 70, 70);
 }
-
-
-
-
